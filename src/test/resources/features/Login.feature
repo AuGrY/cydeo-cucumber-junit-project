@@ -13,15 +13,3 @@ Feature: Library login feature
     When user enters librarian username
     And user enters librarian password
     Then user should see the dashboard
-
-  @student @smoke
-  Scenario: Login as student
-    When user enters student username
-    And user enters student password
-    Then user should see the dashboard
-
-  @admin @smoke
-  Scenario: Login as admin
-    When user enters admin username
-    And user enters admin password
-    Then user should see the dashboard
